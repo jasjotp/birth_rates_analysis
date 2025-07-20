@@ -43,7 +43,7 @@ All plots are saved in the project directory:
 ## Interpretation of Trends
 
 - **Canada's declining share** of global births suggests either a relatively slower population growth or lower fertility rates compared to global averages.
-- Despite Canada’s population increasing, **its global significance in birth contribution has declined**.
+- Despite Canada’s population increasing, **its birth contribution has declined**.
 - **Global births rose steadily** from ~1.35B in 1960 to over 2B in 2023.
 - The slight decline in birth counts in Canada over time (from ~478K to ~352K) also supports concerns around **aging populations** and **slowing growth**.
 
@@ -69,14 +69,14 @@ All plots are saved in the project directory:
 ---
 
 ## File Structure 
+```text
 birth_rates_analysis/
 ├── birth_stats.db                   # SQLite database with merged birth + population data
-├── preprocessing-eda-01.py         # Script to clean, join, analyze, and plot data
+├── preprocessing-eda-01.py         # script to clean, join, analyze, and plot data
 ├── canada_birth_rate.png
 ├── canada_population.png
 ├── global_average_birth_rate.png
 ├── chance_of_birth_in_canada.png
-├── README.md                        # This file
+├── README.md                    
 └── .ipynb_checkpoints/             # Jupyter notebook backups
-
 --- 
