@@ -28,7 +28,7 @@ This project analyzes historical birth rate and population data for Canada and 2
 
 ---
 
-## Visuals Included (Some visuals get an out of memory error - still needs to be fixed)
+## Visuals Included
 
 All plots are saved in the project directory:
 
